@@ -7,23 +7,35 @@ To get started with VideoEditingApp, follow these steps:
     `https://github.com/Adamu-Abdulkarim-Dee/video_editing_backends`
 
 2. Create a virtual environment:
-    `python -m venv source`
+    ```
+    python -m venv source
+    ```
 
 3. Activate virtual environment:
-    `source\scripts\activate`
+    ```
+    source\scripts\activate
+    ```
 
 4. Install the dependencies:
-    `pip install -r requirements.txt`
+
+    ```pip install -r requirements.txt```
 
 5. Apply migrations:
-    `python manage.py makemigrations`
-    `python manage.py migrate`
+    ```
+    python manage.py makemigrations
+
+    python manage.py migrate
+    ```
 
 6. Create a super user:
-    `python manage.py createsuperuser`
+    ```
+    python manage.py createsuperuser
+    ```
 
 7. Run the development server:
-    `python manage.py runserver`
+    ```
+    python manage.py runserver
+    ```
 
 # Configuration
 ## Django REST Framework
@@ -64,4 +76,3 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 ```
-
