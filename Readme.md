@@ -4,7 +4,9 @@ This is a Django application that includes essential configurations for building
 # Installation
 To get started with VideoEditingApp, follow these steps:
 1. Clone the repository:
-    `https://github.com/Adamu-Abdulkarim-Dee/video_editing_backends`
+    ```
+    git clone https://github.com/Adamu-Abdulkarim-Dee/video_editing_backends
+    ```
 
 2. Create a virtual environment:
     ```
@@ -41,12 +43,12 @@ To get started with VideoEditingApp, follow these steps:
 
 # Configuration
 ## Django REST Framework
-Django REST framework is used to build the API for VideoEditingApp. Basic settings are already configured in the `settings.py` file. You can customize these settings as needed.
+[Django REST framework](https://www.django-rest-framework.org/) is used to build the API for VideoEditingApp. Basic settings are already configured in the `settings.py` file. You can customize these settings as needed.
 
 # CORS Headers
-django-cors-headers is used to handle CORS, which allows your API to be accessed from different domains. Basic settings are included in the `settings.py` file. You can customize these settings to fit your requirements.
+[django-cors-headers](https://pypi.org/project/django-cors-headers/) is used to handle CORS, which allows your API to be accessed from different domains. Basic settings are included in the `settings.py` file. You can customize these settings to fit your requirements.
 
-# Settings.py File
+### Settings.py File
 ```
 INSTALLED_APPS = [
     ...
