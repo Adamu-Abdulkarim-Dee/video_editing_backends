@@ -1,4 +1,4 @@
-# Welcome to VideoEditingApp! 
+# Welcome to VideoEditingApp
 This is a Django application that includes essential configurations for building a robust RESTful API. It uses Django REST framework for the API functionalities and django-cors-headers for handling Cross-Origin Resource Sharing (CORS).
 
 # Installation
@@ -17,13 +17,15 @@ To get started with VideoEditingApp, follow these steps:
     ```
 
 4. Install the dependencies:
-
-    ```pip install -r requirements.txt```
+    ```
+    pip install -r requirements.txt
+    ```
 
 5. Apply migrations:
     ```
     python manage.py makemigrations
-
+    ```
+    ```
     python manage.py migrate
     ```
 
